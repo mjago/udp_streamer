@@ -29,5 +29,6 @@ end
 HOST = "localhost"
 PORT = 18080
 udp = UdpStreamer.new(HOST, PORT)
+puts "Streaming to #{HOST}:#{PORT}"
 udp.run
 sleep
